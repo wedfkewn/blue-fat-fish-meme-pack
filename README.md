@@ -33,7 +33,7 @@
 - `source_index.json`：自动生成的哈希、尺寸、来源、动态/静态类型映射
 - `scripts/build_memes.py`：下载序列图，生成动态 GIF 与静态 PNG
 - `memes/<category>/*.gif`：动态表情，保留原有路径以兼容现有使用方式
-- `memes/<category>/static/*`：独立静态表情
+- `memes/<category>/*.{webp,png,jpg,jpeg}`：独立静态表情
 - `previews/cover.png`：封面
 - `previews/overview.png`：动态表情总览
 - `previews/static-overview.png`：静态表情总览

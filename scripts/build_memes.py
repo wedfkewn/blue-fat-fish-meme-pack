@@ -117,7 +117,7 @@ def main():
     for item in static_cfg["sources"]:
         raw=download(item["source_url"])
         src_sha=hashlib.sha256(raw).hexdigest()
-        target=OUT/item["category"]/"static"/item["output"]
+        target=OUT/item["category"]/item["output"]
         target.parent.mkdir(parents=True,exist_ok=True)
         target.write_bytes(raw)
         img=Image.open(io.BytesIO(raw))
