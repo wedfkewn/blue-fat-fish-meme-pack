@@ -49,13 +49,14 @@ def rgba_to_gif_frame(im: Image.Image) -> Image.Image:
 
 def split_sheet(sheet: Image.Image):
     w, h = sheet.size
-    if w % 4 or h % 4:
-        raise ValueError(f"sheet must be divisible by 4x4, got {w}x{h}")
-    cw, ch = w // 4, h // 4
     frames = []
     for row in range(4):
         for col in range(4):
-            cell = sheet.crop((col*cw, row*ch, (col+1)*cw, (row+1)*ch))
+            left = round(col * w / 4)
+            top = round(row * h / 4)
+            right = round((col + 1) * w / 4)
+            bottom = round((row + 1) * h / 4)
+            cell = sheet.crop((left, top, right, bottom))
             cell.thumbnail((SIZE, SIZE), Image.Resampling.LANCZOS)
             canvas = Image.new("RGBA", (SIZE, SIZE), (0,0,0,0))
             x = (SIZE-cell.width)//2
