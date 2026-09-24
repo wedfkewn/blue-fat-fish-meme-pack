@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "note": "只直接打包可明确再分发的独立静态作品。当前首批为 MX1951 投稿并在 ai-girl-stickers 清单中标记为 CC0 的 13 张 DeepSeek/蓝色大肥鱼静态图。",
+  "sources": [
+    {
+      "id": "mx1951-issue07-001",
+      "label": "一些肥鱼 · 01",
+      "category": "food",
+      "output": "mx1951-fish-01.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-001.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-001.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-002",
+      "label": "一些肥鱼 · 02",
+      "category": "food",
+      "output": "mx1951-fish-02.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-002.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-002.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-003",
+      "label": "一些肥鱼 · 03",
+      "category": "food",
+      "output": "mx1951-fish-03.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-003.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-003.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-004",
+      "label": "一些肥鱼 · 04",
+      "category": "food",
+      "output": "mx1951-fish-04.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-004.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-004.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-005",
+      "label": "一些肥鱼 · 05",
+      "category": "food",
+      "output": "mx1951-fish-05.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-005.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-005.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-006",
+      "label": "一些肥鱼 · 06",
+      "category": "food",
+      "output": "mx1951-fish-06.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-006.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-006.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-007",
+      "label": "一些肥鱼 · 07",
+      "category": "food",
+      "output": "mx1951-fish-07.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-007.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-007.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-008",
+      "label": "一些肥鱼 · 08",
+      "category": "food",
+      "output": "mx1951-fish-08.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-008.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-008.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-009",
+      "label": "一些肥鱼 · 09",
+      "category": "food",
+      "output": "mx1951-fish-09.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-009.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-009.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-010",
+      "label": "一些肥鱼 · 10",
+      "category": "food",
+      "output": "mx1951-fish-10.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-010.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-010.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-011",
+      "label": "一些肥鱼 · 11",
+      "category": "food",
+      "output": "mx1951-fish-11.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-011.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-011.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-012",
+      "label": "一些肥鱼 · 12",
+      "category": "food",
+      "output": "mx1951-fish-12.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-012.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-012.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    },
+    {
+      "id": "mx1951-issue07-013",
+      "label": "一些肥鱼 · 13",
+      "category": "food",
+      "output": "mx1951-fish-13.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-013.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-013.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ]
+    }
+  ]
+}
