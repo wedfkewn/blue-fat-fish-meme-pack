@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "sources.json"
+      - "static_sources.json"
       - "scripts/build_memes.py"
       - ".github/workflows/sync-memes.yml"
 
