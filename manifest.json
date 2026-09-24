@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "blue-fat-fish-meme-pack",
+  "name": "蓝色大肥鱼二创动态表情包",
+  "version": "0.1.0",
+  "description": "来源可追溯的蓝色大肥鱼/鲸鱼娘动态二创表情包，按聊天语义分类，由公开授权动作序列自动生成 GIF。",
+  "author": "Meme Manager 适配与维护：wedfkewn；上游生成素材：YunYueSama",
+  "homepage": "https://github.com/wedfkewn/blue-fat-fish-meme-pack",
+  "license": "上游素材适用大肥鱼项目署名许可 1.0；底层第三方权利不在额外授权范围内，详见 LICENSE 与 LICENSES/",
+  "source": {
+    "type": "github",
+    "repo": "wedfkewn/blue-fat-fish-meme-pack",
+    "ref": "main",
+    "subpath": "."
+  },
+  "tags": [
+    "blue-fat-fish",
+    "deepseek-chan",
+    "whale-girl",
+    "animated",
+    "gif",
+    "meme-pack"
+  ],
+  "icon": "previews/cover.png",
+  "previews": [
+    "previews/cover.png",
+    "previews/overview.png"
+  ],
+  "compat": {
+    "min_plugin_version": "4.0.0"
+  },
+  "categories": {
+    "happy": {
+      "description": "用于开心、庆祝、兴奋或活力回应。"
+    },
+    "angry": {
+      "description": "用于生气、吐槽或夸张不满。"
+    },
+    "sad": {
+      "description": "用于难过、委屈或受挫。"
+    },
+    "confused": {
+      "description": "用于发呆、困惑、思考或不知道如何接话。"
+    },
+    "surprised": {
+      "description": "用于突然发现、被抓包、惊讶或紧张。"
+    },
+    "shy": {
+      "description": "用于害羞、不好意思、轻微尴尬或可爱回应。"
+    },
+    "sleep": {
+      "description": "用于困倦、睡觉或准备休息。"
+    },
+    "affection": {
+      "description": "用于亲近、可爱互动、安慰或喜欢。"
+    },
+    "food": {
+      "description": "用于吃饭、零食、饭团、馋嘴等。"
+    },
+    "money": {
+      "description": "用于 token、钱、额度和资源相关玩梗。"
+    },
+    "greeting": {
+      "description": "用于到达、挥手、打招呼或离场。"
+    },
+    "work": {
+      "description": "用于工作、摸鱼、任务与日常状态。"
+    },
+    "entertainment": {
+      "description": "用于唱歌、跳舞、表演和娱乐。"
+    },
+    "teasing": {
+      "description": "用于搞怪、偷吃、恶作剧、自嘲或反转。"
+    },
+    "reply": {
+      "description": "用于中性回复、待机、点头或直接对话回应。"
+    }
+  }
+}
