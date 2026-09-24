@@ -1,0 +1,40 @@
+name: Sync and build memes
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "sources.json"
+      - "scripts/build_memes.py"
+      - ".github/workflows/sync-memes.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow
+      - name: Build animated memes
+        run: python scripts/build_memes.py
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add memes previews source_index.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "build: sync generated meme assets"
+            git push
+          fi
