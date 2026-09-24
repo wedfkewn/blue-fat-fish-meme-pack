@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "id": "blue-fat-fish-meme-pack",
-  "name": "蓝色大肥鱼二创动态表情包",
-  "version": "0.1.0",
-  "description": "来源可追溯的蓝色大肥鱼/鲸鱼娘动态二创表情包，按聊天语义分类，由公开授权动作序列自动生成 GIF。",
+  "name": "蓝色大肥鱼二创表情包",
+  "version": "0.2.0",
+  "description": "来源可追溯的蓝色大肥鱼/鲸鱼娘静态+动态二创表情包，按聊天语义分类，由公开授权动作序列自动生成 GIF 与 PNG。",
   "author": "Meme Manager 适配与维护：wedfkewn；上游生成素材：YunYueSama",
   "homepage": "https://github.com/wedfkewn/blue-fat-fish-meme-pack",
   "license": "上游素材适用大肥鱼项目署名许可 1.0；底层第三方权利不在额外授权范围内，详见 LICENSE 与 LICENSES/",
@@ -17,6 +17,8 @@
     "blue-fat-fish",
     "deepseek-chan",
     "whale-girl",
+    "static",
+    "png",
     "animated",
     "gif",
     "meme-pack"
@@ -24,7 +26,8 @@
   "icon": "previews/cover.png",
   "previews": [
     "previews/cover.png",
-    "previews/overview.png"
+    "previews/overview.png",
+    "previews/static-overview.png"
   ],
   "compat": {
     "min_plugin_version": "4.0.0"
