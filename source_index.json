@@ -4,20 +4,12 @@
   "generator": "scripts/build_memes.py",
   "summary": {
     "animated_count": 15,
-    "static_count": 60,
-    "static_frames_per_source": 4,
-    "static_frame_indices_1_based": [
-      1,
-      6,
-      11,
-      16
-    ]
+    "independent_static_count": 13
   },
-  "upstream_attribution": {
-    "author": "YunYueSama",
-    "repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-    "license": "LICENSES/YunYueSama-Big-Fat-Fish-Attribution-1.0.txt"
-  },
+  "notes": [
+    "静态区只收独立静态作品，不再使用动画抽帧。",
+    "当前独立静态首批均为上游清单明确标记 CC0 的 DeepSeek/蓝色大肥鱼投稿。"
+  ],
   "entries": [
     {
       "id": "wave",
@@ -32,16 +24,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "de51f13aa411f788e9e486d80d6c4102ec2fe3ba3db7d62c9c7c92afd28dbc71",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 95
+      ]
     },
     {
       "id": "walk",
@@ -56,16 +43,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "8196c67b84bc81e21c62db6062c935906e3faf10b4342ab8f85bdbe814331ca5",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 90
+      ]
     },
     {
       "id": "jump",
@@ -80,16 +62,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "d28e6768b694221bd37cfde511f51a2e10c59a039c5b372da003244cbfa40fe4",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 90
+      ]
     },
     {
       "id": "eat",
@@ -104,16 +81,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "9ccc8bae4396029f55b4e47a730620ffae05a8dbc6d94c44e2e3616e1de34656",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 110
+      ]
     },
     {
       "id": "meal1",
@@ -128,16 +100,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "1ce436c7bd442c854daca890fee1fdf16afc3b6c479ff6f057c0cca513ec9c75",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 110
+      ]
     },
     {
       "id": "meal2",
@@ -152,16 +119,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "1212f482307077035d5e8075a5780b592b7ddcbb8c2775671eaf0bc48de3e182",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 110
+      ]
     },
     {
       "id": "sleep",
@@ -176,16 +138,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "089e82ffc989025f6f0d1e4faf6c43928f9e7f691e5350f80b621c67e932e316",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 130
+      ]
     },
     {
       "id": "dance",
@@ -200,16 +157,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "66b0125de76e55f05f406cf8ea07145b2d057907e4bb72133465dbf1291e6c4e",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 90
+      ]
     },
     {
       "id": "hum1",
@@ -224,16 +176,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "1048e5cab23841facf402b18669b64929388b8a8653548cec45d318731e7a621",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 105
+      ]
     },
     {
       "id": "hum2",
@@ -248,16 +195,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "e7dcb197843b616da1612b432fecbc30b0059b3be9739a3cdcecf99c1cf89efb",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 105
+      ]
     },
     {
       "id": "sneak",
@@ -272,16 +214,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "248b28fc0a145f8773ad4a8244a4dd6936de392ac56d40e01b3414f5ec722b06",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 100
+      ]
     },
     {
       "id": "token1",
@@ -296,16 +233,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "21c4d6d2875e4920d28e581fdd34928ff31529931140be458c8e6f8508e1f20f",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 105
+      ]
     },
     {
       "id": "token2",
@@ -320,16 +252,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "ca2654e09992ae615aae404f2bcb24f82d4a8d16eacc6e46b2c58d293b0a9679",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 105
+      ]
     },
     {
       "id": "tail",
@@ -344,16 +271,11 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "5dde9da520d15c80eb80f5d01efa0fc196ea195349bef7c6ce59d772f296eb09",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 110
+      ]
     },
     {
       "id": "idle",
@@ -368,1516 +290,362 @@
       "license": "大肥鱼项目署名许可 1.0",
       "modified": true,
       "source_sha256": "b2bfe2dbd7c1a755953cb3185224820df3910cb3b660a26eb8720a3a82ecd1b8",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
       "frames": 16,
       "output_size": [
         256,
         256
-      ],
-      "duration_ms": 120
+      ]
     },
     {
-      "id": "wave-f01",
-      "label": "挥手打招呼 · 静态帧 1",
-      "media_type": "static",
-      "category": "greeting",
-      "output": "memes/greeting/static/001-wave-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "wave",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/wave-1.png",
-      "source_path": "design/sources/dense-v1/wave-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "de51f13aa411f788e9e486d80d6c4102ec2fe3ba3db7d62c9c7c92afd28dbc71",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "wave-f06",
-      "label": "挥手打招呼 · 静态帧 6",
-      "media_type": "static",
-      "category": "greeting",
-      "output": "memes/greeting/static/001-wave-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "wave",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/wave-1.png",
-      "source_path": "design/sources/dense-v1/wave-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "de51f13aa411f788e9e486d80d6c4102ec2fe3ba3db7d62c9c7c92afd28dbc71",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "wave-f11",
-      "label": "挥手打招呼 · 静态帧 11",
-      "media_type": "static",
-      "category": "greeting",
-      "output": "memes/greeting/static/001-wave-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "wave",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/wave-1.png",
-      "source_path": "design/sources/dense-v1/wave-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "de51f13aa411f788e9e486d80d6c4102ec2fe3ba3db7d62c9c7c92afd28dbc71",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "wave-f16",
-      "label": "挥手打招呼 · 静态帧 16",
-      "media_type": "static",
-      "category": "greeting",
-      "output": "memes/greeting/static/001-wave-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "wave",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/wave-1.png",
-      "source_path": "design/sources/dense-v1/wave-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "de51f13aa411f788e9e486d80d6c4102ec2fe3ba3db7d62c9c7c92afd28dbc71",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "walk-f01",
-      "label": "走路到场 · 静态帧 1",
-      "media_type": "static",
-      "category": "greeting",
-      "output": "memes/greeting/static/002-walk-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "walk",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/walk-cycle.png",
-      "source_path": "design/sources/dense-v1/walk-cycle.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "8196c67b84bc81e21c62db6062c935906e3faf10b4342ab8f85bdbe814331ca5",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "walk-f06",
-      "label": "走路到场 · 静态帧 6",
-      "media_type": "static",
-      "category": "greeting",
-      "output": "memes/greeting/static/002-walk-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "walk",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/walk-cycle.png",
-      "source_path": "design/sources/dense-v1/walk-cycle.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "8196c67b84bc81e21c62db6062c935906e3faf10b4342ab8f85bdbe814331ca5",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "walk-f11",
-      "label": "走路到场 · 静态帧 11",
-      "media_type": "static",
-      "category": "greeting",
-      "output": "memes/greeting/static/002-walk-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "walk",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/walk-cycle.png",
-      "source_path": "design/sources/dense-v1/walk-cycle.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "8196c67b84bc81e21c62db6062c935906e3faf10b4342ab8f85bdbe814331ca5",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "walk-f16",
-      "label": "走路到场 · 静态帧 16",
-      "media_type": "static",
-      "category": "greeting",
-      "output": "memes/greeting/static/002-walk-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "walk",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/walk-cycle.png",
-      "source_path": "design/sources/dense-v1/walk-cycle.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "8196c67b84bc81e21c62db6062c935906e3faf10b4342ab8f85bdbe814331ca5",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "jump-f01",
-      "label": "开心蹦跳 · 静态帧 1",
-      "media_type": "static",
-      "category": "happy",
-      "output": "memes/happy/static/001-jump-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "jump",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/jump-1.png",
-      "source_path": "design/sources/dense-v1/jump-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "d28e6768b694221bd37cfde511f51a2e10c59a039c5b372da003244cbfa40fe4",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "jump-f06",
-      "label": "开心蹦跳 · 静态帧 6",
-      "media_type": "static",
-      "category": "happy",
-      "output": "memes/happy/static/001-jump-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "jump",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/jump-1.png",
-      "source_path": "design/sources/dense-v1/jump-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "d28e6768b694221bd37cfde511f51a2e10c59a039c5b372da003244cbfa40fe4",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "jump-f11",
-      "label": "开心蹦跳 · 静态帧 11",
-      "media_type": "static",
-      "category": "happy",
-      "output": "memes/happy/static/001-jump-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "jump",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/jump-1.png",
-      "source_path": "design/sources/dense-v1/jump-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "d28e6768b694221bd37cfde511f51a2e10c59a039c5b372da003244cbfa40fe4",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "jump-f16",
-      "label": "开心蹦跳 · 静态帧 16",
-      "media_type": "static",
-      "category": "happy",
-      "output": "memes/happy/static/001-jump-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "jump",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/jump-1.png",
-      "source_path": "design/sources/dense-v1/jump-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "d28e6768b694221bd37cfde511f51a2e10c59a039c5b372da003244cbfa40fe4",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "eat-f01",
-      "label": "开吃 · 静态帧 1",
-      "media_type": "static",
+      "id": "mx1951-issue07-001",
+      "label": "一些肥鱼 · 01",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/001-eat-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "eat",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/eat-1.png",
-      "source_path": "design/sources/dense-v1/eat-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "9ccc8bae4396029f55b4e47a730620ffae05a8dbc6d94c44e2e3616e1de34656",
+      "output": "memes/food/static/mx1951-fish-01.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-001.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-001.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "7e259af2ae3560bdb62cd4a878c8ae5b9381244d1f97f3225c579cccc00c1954",
       "source_dimensions": [
-        1254,
-        1254
+        960,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "eat-f06",
-      "label": "开吃 · 静态帧 6",
-      "media_type": "static",
+      "id": "mx1951-issue07-002",
+      "label": "一些肥鱼 · 02",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/001-eat-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "eat",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/eat-1.png",
-      "source_path": "design/sources/dense-v1/eat-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "9ccc8bae4396029f55b4e47a730620ffae05a8dbc6d94c44e2e3616e1de34656",
+      "output": "memes/food/static/mx1951-fish-02.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-002.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-002.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "e4b70b880ab2f3a764b27603eff55b4d90a64d0e05329d6ccf61528f6f9cd2f0",
       "source_dimensions": [
-        1254,
-        1254
+        960,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "eat-f11",
-      "label": "开吃 · 静态帧 11",
-      "media_type": "static",
+      "id": "mx1951-issue07-003",
+      "label": "一些肥鱼 · 03",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/001-eat-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "eat",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/eat-1.png",
-      "source_path": "design/sources/dense-v1/eat-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "9ccc8bae4396029f55b4e47a730620ffae05a8dbc6d94c44e2e3616e1de34656",
+      "output": "memes/food/static/mx1951-fish-03.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-003.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-003.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "59d2005c090b8829bb0231dc65a2dc85395e9ed2dee905949da8f899ac8b32ec",
       "source_dimensions": [
-        1254,
-        1254
+        853,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "eat-f16",
-      "label": "开吃 · 静态帧 16",
-      "media_type": "static",
+      "id": "mx1951-issue07-004",
+      "label": "一些肥鱼 · 04",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/001-eat-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "eat",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/eat-1.png",
-      "source_path": "design/sources/dense-v1/eat-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "9ccc8bae4396029f55b4e47a730620ffae05a8dbc6d94c44e2e3616e1de34656",
+      "output": "memes/food/static/mx1951-fish-04.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-004.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-004.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "fc2d6668da61441fdfe726bd927bee3cd8eb0c098250e87399cefcc5b915ddd5",
       "source_dimensions": [
-        1254,
-        1254
+        853,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "meal1-f01",
-      "label": "拿出饭团 · 静态帧 1",
-      "media_type": "static",
+      "id": "mx1951-issue07-005",
+      "label": "一些肥鱼 · 05",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/002-meal-break-1-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "meal1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/meal-1.png",
-      "source_path": "design/sources/stories-v1/meal-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1ce436c7bd442c854daca890fee1fdf16afc3b6c479ff6f057c0cca513ec9c75",
+      "output": "memes/food/static/mx1951-fish-05.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-005.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-005.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "ed3401bbaf70150c87062deb8171083692ddf37b8c4e56f6cfa79c4c7a6b462a",
       "source_dimensions": [
-        1254,
-        1254
+        853,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "meal1-f06",
-      "label": "拿出饭团 · 静态帧 6",
-      "media_type": "static",
+      "id": "mx1951-issue07-006",
+      "label": "一些肥鱼 · 06",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/002-meal-break-1-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "meal1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/meal-1.png",
-      "source_path": "design/sources/stories-v1/meal-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1ce436c7bd442c854daca890fee1fdf16afc3b6c479ff6f057c0cca513ec9c75",
+      "output": "memes/food/static/mx1951-fish-06.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-006.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-006.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "8a5a79a9c125220ad20d29b13e2c57eee42cd0ae353a69bd9b80a9fb17c2913c",
       "source_dimensions": [
-        1254,
-        1254
+        1280,
+        960
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "meal1-f11",
-      "label": "拿出饭团 · 静态帧 11",
-      "media_type": "static",
+      "id": "mx1951-issue07-007",
+      "label": "一些肥鱼 · 07",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/002-meal-break-1-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "meal1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/meal-1.png",
-      "source_path": "design/sources/stories-v1/meal-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1ce436c7bd442c854daca890fee1fdf16afc3b6c479ff6f057c0cca513ec9c75",
+      "output": "memes/food/static/mx1951-fish-07.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-007.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-007.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "ac0e91e37858a174a710ca6acc162c399c409959d97698a1097d5c995b7f2bba",
       "source_dimensions": [
-        1254,
-        1254
+        960,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "meal1-f16",
-      "label": "拿出饭团 · 静态帧 16",
-      "media_type": "static",
+      "id": "mx1951-issue07-008",
+      "label": "一些肥鱼 · 08",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/002-meal-break-1-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "meal1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/meal-1.png",
-      "source_path": "design/sources/stories-v1/meal-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1ce436c7bd442c854daca890fee1fdf16afc3b6c479ff6f057c0cca513ec9c75",
+      "output": "memes/food/static/mx1951-fish-08.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-008.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-008.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "6c1343def9b7addc2c21115d34c350df4a25e1332abea1f8339f3416901a1289",
       "source_dimensions": [
-        1254,
-        1254
+        1280,
+        1024
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "meal2-f01",
-      "label": "吃饭团 · 静态帧 1",
-      "media_type": "static",
+      "id": "mx1951-issue07-009",
+      "label": "一些肥鱼 · 09",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/003-meal-break-2-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "meal2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/meal-2.png",
-      "source_path": "design/sources/stories-v1/meal-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1212f482307077035d5e8075a5780b592b7ddcbb8c2775671eaf0bc48de3e182",
+      "output": "memes/food/static/mx1951-fish-09.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-009.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-009.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "7989c6e5bdf5cd34356d601aa42eb27f11105227e351378e681242224f47073b",
       "source_dimensions": [
-        1254,
-        1254
+        960,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "meal2-f06",
-      "label": "吃饭团 · 静态帧 6",
-      "media_type": "static",
+      "id": "mx1951-issue07-010",
+      "label": "一些肥鱼 · 10",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/003-meal-break-2-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "meal2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/meal-2.png",
-      "source_path": "design/sources/stories-v1/meal-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1212f482307077035d5e8075a5780b592b7ddcbb8c2775671eaf0bc48de3e182",
+      "output": "memes/food/static/mx1951-fish-10.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-010.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-010.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "bb65d09ba28d3e22f5a46bbc1be3a7f2b443d0c364872c5ed97a1cebf5346d75",
       "source_dimensions": [
-        1254,
-        1254
+        960,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "meal2-f11",
-      "label": "吃饭团 · 静态帧 11",
-      "media_type": "static",
+      "id": "mx1951-issue07-011",
+      "label": "一些肥鱼 · 11",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/003-meal-break-2-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "meal2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/meal-2.png",
-      "source_path": "design/sources/stories-v1/meal-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1212f482307077035d5e8075a5780b592b7ddcbb8c2775671eaf0bc48de3e182",
+      "output": "memes/food/static/mx1951-fish-11.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-011.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-011.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "40f52eb8498245157f7439abba9242ae4330ca596c2ec2fa97199f1d4c28bd18",
       "source_dimensions": [
-        1254,
-        1254
+        960,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "meal2-f16",
-      "label": "吃饭团 · 静态帧 16",
-      "media_type": "static",
+      "id": "mx1951-issue07-012",
+      "label": "一些肥鱼 · 12",
+      "media_type": "static-independent",
       "category": "food",
-      "output": "memes/food/static/003-meal-break-2-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "meal2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/meal-2.png",
-      "source_path": "design/sources/stories-v1/meal-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1212f482307077035d5e8075a5780b592b7ddcbb8c2775671eaf0bc48de3e182",
+      "output": "memes/food/static/mx1951-fish-12.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-012.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-012.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "39ac0947a7390c4a502e2efa0766fe27fcf9a600eb6c8b592d4d20acab659915",
       "source_dimensions": [
-        1254,
-        1254
+        1111,
+        1280
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     },
     {
-      "id": "sleep-f01",
-      "label": "准备睡觉 · 静态帧 1",
-      "media_type": "static",
-      "category": "sleep",
-      "output": "memes/sleep/static/001-sleep-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "sleep",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/sleep-1.png",
-      "source_path": "design/sources/dense-v1/sleep-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "089e82ffc989025f6f0d1e4faf6c43928f9e7f691e5350f80b621c67e932e316",
+      "id": "mx1951-issue07-013",
+      "label": "一些肥鱼 · 13",
+      "media_type": "static-independent",
+      "category": "food",
+      "output": "memes/food/static/mx1951-fish-13.webp",
+      "source_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/large/deepseek/issue-07-013.webp",
+      "original_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/deepseek/issue-07-013.png",
+      "metadata_url": "https://github.com/lmy414/ai-girl-stickers/blob/main/dist/submissions/works.json",
+      "author": "@MX1951",
+      "submitter": "MX1951",
+      "origin": "self-created",
+      "license": "CC0",
+      "license_note": "投稿者在 ai-girl-stickers 的发布清单中标注为 CC0 公共领域。",
+      "tags": [
+        "大肥鱼",
+        "开源",
+        "吃饭",
+        "JK"
+      ],
+      "source_sha256": "57af980fe1d422196637ba568311ff5117bf83084583a546601266414b7352f9",
       "source_dimensions": [
         1254,
         1254
       ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "sleep-f06",
-      "label": "准备睡觉 · 静态帧 6",
-      "media_type": "static",
-      "category": "sleep",
-      "output": "memes/sleep/static/001-sleep-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "sleep",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/sleep-1.png",
-      "source_path": "design/sources/dense-v1/sleep-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "089e82ffc989025f6f0d1e4faf6c43928f9e7f691e5350f80b621c67e932e316",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "sleep-f11",
-      "label": "准备睡觉 · 静态帧 11",
-      "media_type": "static",
-      "category": "sleep",
-      "output": "memes/sleep/static/001-sleep-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "sleep",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/sleep-1.png",
-      "source_path": "design/sources/dense-v1/sleep-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "089e82ffc989025f6f0d1e4faf6c43928f9e7f691e5350f80b621c67e932e316",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "sleep-f16",
-      "label": "准备睡觉 · 静态帧 16",
-      "media_type": "static",
-      "category": "sleep",
-      "output": "memes/sleep/static/001-sleep-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "sleep",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/sleep-1.png",
-      "source_path": "design/sources/dense-v1/sleep-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "089e82ffc989025f6f0d1e4faf6c43928f9e7f691e5350f80b621c67e932e316",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "dance-f01",
-      "label": "跳舞 · 静态帧 1",
-      "media_type": "static",
-      "category": "entertainment",
-      "output": "memes/entertainment/static/001-dance-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "dance",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/dance-1.png",
-      "source_path": "design/sources/dense-v1/dance-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "66b0125de76e55f05f406cf8ea07145b2d057907e4bb72133465dbf1291e6c4e",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "dance-f06",
-      "label": "跳舞 · 静态帧 6",
-      "media_type": "static",
-      "category": "entertainment",
-      "output": "memes/entertainment/static/001-dance-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "dance",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/dance-1.png",
-      "source_path": "design/sources/dense-v1/dance-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "66b0125de76e55f05f406cf8ea07145b2d057907e4bb72133465dbf1291e6c4e",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "dance-f11",
-      "label": "跳舞 · 静态帧 11",
-      "media_type": "static",
-      "category": "entertainment",
-      "output": "memes/entertainment/static/001-dance-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "dance",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/dance-1.png",
-      "source_path": "design/sources/dense-v1/dance-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "66b0125de76e55f05f406cf8ea07145b2d057907e4bb72133465dbf1291e6c4e",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "dance-f16",
-      "label": "跳舞 · 静态帧 16",
-      "media_type": "static",
-      "category": "entertainment",
-      "output": "memes/entertainment/static/001-dance-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "dance",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/dance-1.png",
-      "source_path": "design/sources/dense-v1/dance-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "66b0125de76e55f05f406cf8ea07145b2d057907e4bb72133465dbf1291e6c4e",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "hum1-f01",
-      "label": "哼歌 · 静态帧 1",
-      "media_type": "static",
-      "category": "entertainment",
-      "output": "memes/entertainment/static/002-hum-1-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "hum1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/hum-1.png",
-      "source_path": "design/sources/stories-v1/hum-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1048e5cab23841facf402b18669b64929388b8a8653548cec45d318731e7a621",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "hum1-f06",
-      "label": "哼歌 · 静态帧 6",
-      "media_type": "static",
-      "category": "entertainment",
-      "output": "memes/entertainment/static/002-hum-1-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "hum1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/hum-1.png",
-      "source_path": "design/sources/stories-v1/hum-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1048e5cab23841facf402b18669b64929388b8a8653548cec45d318731e7a621",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "hum1-f11",
-      "label": "哼歌 · 静态帧 11",
-      "media_type": "static",
-      "category": "entertainment",
-      "output": "memes/entertainment/static/002-hum-1-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "hum1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/hum-1.png",
-      "source_path": "design/sources/stories-v1/hum-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1048e5cab23841facf402b18669b64929388b8a8653548cec45d318731e7a621",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "hum1-f16",
-      "label": "哼歌 · 静态帧 16",
-      "media_type": "static",
-      "category": "entertainment",
-      "output": "memes/entertainment/static/002-hum-1-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "hum1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/hum-1.png",
-      "source_path": "design/sources/stories-v1/hum-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "1048e5cab23841facf402b18669b64929388b8a8653548cec45d318731e7a621",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "hum2-f01",
-      "label": "唱完有点害羞 · 静态帧 1",
-      "media_type": "static",
-      "category": "shy",
-      "output": "memes/shy/static/001-shy-hum-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "hum2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/hum-2.png",
-      "source_path": "design/sources/stories-v1/hum-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "e7dcb197843b616da1612b432fecbc30b0059b3be9739a3cdcecf99c1cf89efb",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "hum2-f06",
-      "label": "唱完有点害羞 · 静态帧 6",
-      "media_type": "static",
-      "category": "shy",
-      "output": "memes/shy/static/001-shy-hum-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "hum2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/hum-2.png",
-      "source_path": "design/sources/stories-v1/hum-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "e7dcb197843b616da1612b432fecbc30b0059b3be9739a3cdcecf99c1cf89efb",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "hum2-f11",
-      "label": "唱完有点害羞 · 静态帧 11",
-      "media_type": "static",
-      "category": "shy",
-      "output": "memes/shy/static/001-shy-hum-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "hum2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/hum-2.png",
-      "source_path": "design/sources/stories-v1/hum-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "e7dcb197843b616da1612b432fecbc30b0059b3be9739a3cdcecf99c1cf89efb",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "hum2-f16",
-      "label": "唱完有点害羞 · 静态帧 16",
-      "media_type": "static",
-      "category": "shy",
-      "output": "memes/shy/static/001-shy-hum-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "hum2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/hum-2.png",
-      "source_path": "design/sources/stories-v1/hum-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "e7dcb197843b616da1612b432fecbc30b0059b3be9739a3cdcecf99c1cf89efb",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "sneak-f01",
-      "label": "偷偷摸摸搞怪 · 静态帧 1",
-      "media_type": "static",
-      "category": "teasing",
-      "output": "memes/teasing/static/001-sneak-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "sneak",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/sneak-1.png",
-      "source_path": "design/sources/dense-v1/sneak-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "248b28fc0a145f8773ad4a8244a4dd6936de392ac56d40e01b3414f5ec722b06",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "sneak-f06",
-      "label": "偷偷摸摸搞怪 · 静态帧 6",
-      "media_type": "static",
-      "category": "teasing",
-      "output": "memes/teasing/static/001-sneak-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "sneak",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/sneak-1.png",
-      "source_path": "design/sources/dense-v1/sneak-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "248b28fc0a145f8773ad4a8244a4dd6936de392ac56d40e01b3414f5ec722b06",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "sneak-f11",
-      "label": "偷偷摸摸搞怪 · 静态帧 11",
-      "media_type": "static",
-      "category": "teasing",
-      "output": "memes/teasing/static/001-sneak-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "sneak",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/sneak-1.png",
-      "source_path": "design/sources/dense-v1/sneak-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "248b28fc0a145f8773ad4a8244a4dd6936de392ac56d40e01b3414f5ec722b06",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "sneak-f16",
-      "label": "偷偷摸摸搞怪 · 静态帧 16",
-      "media_type": "static",
-      "category": "teasing",
-      "output": "memes/teasing/static/001-sneak-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "sneak",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/sneak-1.png",
-      "source_path": "design/sources/dense-v1/sneak-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "248b28fc0a145f8773ad4a8244a4dd6936de392ac56d40e01b3414f5ec722b06",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "token1-f01",
-      "label": "token 梗 · 静态帧 1",
-      "media_type": "static",
-      "category": "money",
-      "output": "memes/money/static/001-token-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "token1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/token-1.png",
-      "source_path": "design/sources/stories-v1/token-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "21c4d6d2875e4920d28e581fdd34928ff31529931140be458c8e6f8508e1f20f",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "token1-f06",
-      "label": "token 梗 · 静态帧 6",
-      "media_type": "static",
-      "category": "money",
-      "output": "memes/money/static/001-token-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "token1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/token-1.png",
-      "source_path": "design/sources/stories-v1/token-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "21c4d6d2875e4920d28e581fdd34928ff31529931140be458c8e6f8508e1f20f",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "token1-f11",
-      "label": "token 梗 · 静态帧 11",
-      "media_type": "static",
-      "category": "money",
-      "output": "memes/money/static/001-token-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "token1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/token-1.png",
-      "source_path": "design/sources/stories-v1/token-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "21c4d6d2875e4920d28e581fdd34928ff31529931140be458c8e6f8508e1f20f",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "token1-f16",
-      "label": "token 梗 · 静态帧 16",
-      "media_type": "static",
-      "category": "money",
-      "output": "memes/money/static/001-token-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "token1",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/token-1.png",
-      "source_path": "design/sources/stories-v1/token-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "21c4d6d2875e4920d28e581fdd34928ff31529931140be458c8e6f8508e1f20f",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "token2-f01",
-      "label": "玩 token 被抓包 · 静态帧 1",
-      "media_type": "static",
-      "category": "surprised",
-      "output": "memes/surprised/static/001-caught-token-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "token2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/token-2.png",
-      "source_path": "design/sources/stories-v1/token-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "ca2654e09992ae615aae404f2bcb24f82d4a8d16eacc6e46b2c58d293b0a9679",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "token2-f06",
-      "label": "玩 token 被抓包 · 静态帧 6",
-      "media_type": "static",
-      "category": "surprised",
-      "output": "memes/surprised/static/001-caught-token-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "token2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/token-2.png",
-      "source_path": "design/sources/stories-v1/token-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "ca2654e09992ae615aae404f2bcb24f82d4a8d16eacc6e46b2c58d293b0a9679",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "token2-f11",
-      "label": "玩 token 被抓包 · 静态帧 11",
-      "media_type": "static",
-      "category": "surprised",
-      "output": "memes/surprised/static/001-caught-token-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "token2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/token-2.png",
-      "source_path": "design/sources/stories-v1/token-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "ca2654e09992ae615aae404f2bcb24f82d4a8d16eacc6e46b2c58d293b0a9679",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "token2-f16",
-      "label": "玩 token 被抓包 · 静态帧 16",
-      "media_type": "static",
-      "category": "surprised",
-      "output": "memes/surprised/static/001-caught-token-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "token2",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/token-2.png",
-      "source_path": "design/sources/stories-v1/token-2.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "ca2654e09992ae615aae404f2bcb24f82d4a8d16eacc6e46b2c58d293b0a9679",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "tail-f01",
-      "label": "轻轻摆尾 · 静态帧 1",
-      "media_type": "static",
-      "category": "affection",
-      "output": "memes/affection/static/001-tail-sway-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "tail",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/tail-1.png",
-      "source_path": "design/sources/stories-v1/tail-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "5dde9da520d15c80eb80f5d01efa0fc196ea195349bef7c6ce59d772f296eb09",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "tail-f06",
-      "label": "轻轻摆尾 · 静态帧 6",
-      "media_type": "static",
-      "category": "affection",
-      "output": "memes/affection/static/001-tail-sway-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "tail",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/tail-1.png",
-      "source_path": "design/sources/stories-v1/tail-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "5dde9da520d15c80eb80f5d01efa0fc196ea195349bef7c6ce59d772f296eb09",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "tail-f11",
-      "label": "轻轻摆尾 · 静态帧 11",
-      "media_type": "static",
-      "category": "affection",
-      "output": "memes/affection/static/001-tail-sway-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "tail",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/tail-1.png",
-      "source_path": "design/sources/stories-v1/tail-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "5dde9da520d15c80eb80f5d01efa0fc196ea195349bef7c6ce59d772f296eb09",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "tail-f16",
-      "label": "轻轻摆尾 · 静态帧 16",
-      "media_type": "static",
-      "category": "affection",
-      "output": "memes/affection/static/001-tail-sway-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "tail",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/stories-v1/tail-1.png",
-      "source_path": "design/sources/stories-v1/tail-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "5dde9da520d15c80eb80f5d01efa0fc196ea195349bef7c6ce59d772f296eb09",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "idle-f01",
-      "label": "待机回复 · 静态帧 1",
-      "media_type": "static",
-      "category": "reply",
-      "output": "memes/reply/static/001-idle-f01.png",
-      "frame_index": 1,
-      "source_animation_id": "idle",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/idle-1.png",
-      "source_path": "design/sources/dense-v1/idle-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "b2bfe2dbd7c1a755953cb3185224820df3910cb3b660a26eb8720a3a82ecd1b8",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "idle-f06",
-      "label": "待机回复 · 静态帧 6",
-      "media_type": "static",
-      "category": "reply",
-      "output": "memes/reply/static/001-idle-f06.png",
-      "frame_index": 6,
-      "source_animation_id": "idle",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/idle-1.png",
-      "source_path": "design/sources/dense-v1/idle-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "b2bfe2dbd7c1a755953cb3185224820df3910cb3b660a26eb8720a3a82ecd1b8",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "idle-f11",
-      "label": "待机回复 · 静态帧 11",
-      "media_type": "static",
-      "category": "reply",
-      "output": "memes/reply/static/001-idle-f11.png",
-      "frame_index": 11,
-      "source_animation_id": "idle",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/idle-1.png",
-      "source_path": "design/sources/dense-v1/idle-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "b2bfe2dbd7c1a755953cb3185224820df3910cb3b660a26eb8720a3a82ecd1b8",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
-    },
-    {
-      "id": "idle-f16",
-      "label": "待机回复 · 静态帧 16",
-      "media_type": "static",
-      "category": "reply",
-      "output": "memes/reply/static/001-idle-f16.png",
-      "frame_index": 16,
-      "source_animation_id": "idle",
-      "source_url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/sources/dense-v1/idle-1.png",
-      "source_path": "design/sources/dense-v1/idle-1.png",
-      "author": "YunYueSama",
-      "upstream_repo": "https://github.com/YunYueSama/codex-deepseek-pet",
-      "license": "大肥鱼项目署名许可 1.0",
-      "modified": true,
-      "source_sha256": "b2bfe2dbd7c1a755953cb3185224820df3910cb3b660a26eb8720a3a82ecd1b8",
-      "source_dimensions": [
-        1254,
-        1254
-      ],
-      "output_size": [
-        256,
-        256
-      ],
-      "format": "png"
+      "format": "webp"
     }
   ]
 }
